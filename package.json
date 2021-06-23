@@ -1,0 +1,26 @@
+{
+  "name": "javascript-game",
+  "version": "1.0.0",
+  "description": "Javascript Game",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc && npm run build:cp-src",
+    "build:cp-src": "cp ./src/** ./dist",
+    "type": "tsc --noEmit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kidxrude/javascript.git"
+  },
+  "author": "Rudie van der Weij",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kidxrude/javascript/issues"
+  },
+  "homepage": "https://github.com/kidxrude/javascript#readme",
+  "devDependencies": {
+    "tsc": "^2.0.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.4"
+  }
+}
