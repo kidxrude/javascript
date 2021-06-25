@@ -2,6 +2,7 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "commonjs",
+    "moduleResolution": "Node",
     "allowJs": true,
     "checkJs": true,
     "sourceMap": true,
@@ -16,5 +17,8 @@
   },
   "include": [
     "src/**/*",
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
