@@ -1,12 +1,11 @@
-Test with node.js
+Javascript GAME
 =====================
 
-Install the jasmine-node plugin from https://github.com/mhevery/jasmine-node
+Install dependencies with
 
-	npm install jasmine-node -g
+	npm install
 
-And execute:
+And run the game with
 
-	jasmine-node .
+	npm run start
 
-Any test source matching the pattern *.spec.js will be executed.
