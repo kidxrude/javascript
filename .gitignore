@@ -16,3 +16,4 @@ logs
 npm-debug.log*
 # Misc files
 .DS_Store
+.idea
